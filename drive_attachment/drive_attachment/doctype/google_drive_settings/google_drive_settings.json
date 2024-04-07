@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-01 18:10:16.204877",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "user_email",
+  "client_id",
+  "client_secret",
+  "project_id",
+  "auth_uri",
+  "token_uri",
+  "auth_provider_x509_cert_url",
+  "redirect_uri"
+ ],
+ "fields": [
+  {
+   "fieldname": "client_id",
+   "fieldtype": "Data",
+   "label": "Client ID"
+  },
+  {
+   "fieldname": "client_secret",
+   "fieldtype": "Data",
+   "label": "Client Secret"
+  },
+  {
+   "fieldname": "project_id",
+   "fieldtype": "Data",
+   "label": "Project ID"
+  },
+  {
+   "fieldname": "auth_uri",
+   "fieldtype": "Data",
+   "label": "Auth URI"
+  },
+  {
+   "fieldname": "token_uri",
+   "fieldtype": "Data",
+   "label": "Token URI"
+  },
+  {
+   "fieldname": "auth_provider_x509_cert_url",
+   "fieldtype": "Data",
+   "label": "auth_provider_x509_cert_url"
+  },
+  {
+   "fieldname": "redirect_uri",
+   "fieldtype": "Data",
+   "label": "redirect_uri"
+  },
+  {
+   "fieldname": "user_email",
+   "fieldtype": "Data",
+   "label": "User Email"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-04-03 10:45:06.490153",
+ "modified_by": "Administrator",
+ "module": "Drive Attachment",
+ "name": "Google Drive Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

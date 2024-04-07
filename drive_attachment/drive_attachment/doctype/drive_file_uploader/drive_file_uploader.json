@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "File.##",
+ "creation": "2024-04-02 12:06:47.423580",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_laha",
+  "select_file",
+  "drive_file_link",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_laha",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Drive File Uploader",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "select_file",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Select File",
+   "reqd": 1
+  },
+  {
+   "fieldname": "drive_file_link",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Drive File Link",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-04-02 18:52:17.221563",
+ "modified_by": "Administrator",
+ "module": "Drive Attachment",
+ "name": "Drive File Uploader",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
