@@ -129,7 +129,12 @@ app_license = "mit"
 # 		"on_trash": "method"
 # 	}
 # }
-
+doc_events = {
+    "File": {
+        "after_insert": "drive_attachment.controller.file_upload_to_gd",
+        "on_trash": "drive_attachment.controller.delete_from_gd"
+    }
+}
 # Scheduled Tasks
 # ---------------
 
