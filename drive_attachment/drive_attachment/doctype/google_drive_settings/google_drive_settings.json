@@ -1,4 +1,5 @@
 {
+ "_liked_by": "[\"Administrator\"]",
  "actions": [],
  "allow_rename": 1,
  "creation": "2024-04-01 18:10:16.204877",
@@ -12,7 +13,11 @@
   "auth_uri",
   "token_uri",
   "auth_provider_x509_cert_url",
-  "redirect_uri"
+  "redirect_uri",
+  "authorize",
+  "authorization_code",
+  "refresh_token",
+  "code"
  ],
  "fields": [
   {
@@ -54,12 +59,32 @@
    "fieldname": "user_email",
    "fieldtype": "Data",
    "label": "User Email"
+  },
+  {
+   "fieldname": "authorize",
+   "fieldtype": "Button",
+   "label": "Authorize"
+  },
+  {
+   "fieldname": "authorization_code",
+   "fieldtype": "Small Text",
+   "label": "authorization_code"
+  },
+  {
+   "fieldname": "refresh_token",
+   "fieldtype": "Small Text",
+   "label": "refresh_token"
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Small Text",
+   "label": "Code"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2024-04-03 10:45:06.490153",
+ "modified": "2024-04-08 18:35:11.417323",
  "modified_by": "Administrator",
  "module": "Drive Attachment",
  "name": "Google Drive Settings",
