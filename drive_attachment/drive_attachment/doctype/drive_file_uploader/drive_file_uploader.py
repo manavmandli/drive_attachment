@@ -1,11 +1,7 @@
 import frappe
 import os
-import urllib.request
 import mimetypes
-import webbrowser
-import pickle
 from frappe.model.document import Document
-from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseUpload
 from google.oauth2.credentials import Credentials

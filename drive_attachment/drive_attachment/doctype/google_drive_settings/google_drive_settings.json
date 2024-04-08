@@ -6,85 +6,19 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "user_email",
-  "client_id",
-  "client_secret",
-  "project_id",
-  "auth_uri",
-  "token_uri",
-  "auth_provider_x509_cert_url",
-  "redirect_uri",
-  "authorize",
-  "authorization_code",
-  "refresh_token",
-  "code"
+  "folder_name"
  ],
  "fields": [
   {
-   "fieldname": "client_id",
+   "fieldname": "folder_name",
    "fieldtype": "Data",
-   "label": "Client ID"
-  },
-  {
-   "fieldname": "client_secret",
-   "fieldtype": "Data",
-   "label": "Client Secret"
-  },
-  {
-   "fieldname": "project_id",
-   "fieldtype": "Data",
-   "label": "Project ID"
-  },
-  {
-   "fieldname": "auth_uri",
-   "fieldtype": "Data",
-   "label": "Auth URI"
-  },
-  {
-   "fieldname": "token_uri",
-   "fieldtype": "Data",
-   "label": "Token URI"
-  },
-  {
-   "fieldname": "auth_provider_x509_cert_url",
-   "fieldtype": "Data",
-   "label": "auth_provider_x509_cert_url"
-  },
-  {
-   "fieldname": "redirect_uri",
-   "fieldtype": "Data",
-   "label": "redirect_uri"
-  },
-  {
-   "fieldname": "user_email",
-   "fieldtype": "Data",
-   "label": "User Email"
-  },
-  {
-   "fieldname": "authorize",
-   "fieldtype": "Button",
-   "label": "Authorize"
-  },
-  {
-   "fieldname": "authorization_code",
-   "fieldtype": "Small Text",
-   "label": "authorization_code"
-  },
-  {
-   "fieldname": "refresh_token",
-   "fieldtype": "Small Text",
-   "label": "refresh_token"
-  },
-  {
-   "fieldname": "code",
-   "fieldtype": "Small Text",
-   "label": "Code"
+   "label": "Folder Name "
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2024-04-08 18:35:11.417323",
+ "modified": "2024-04-08 19:08:16.065898",
  "modified_by": "Administrator",
  "module": "Drive Attachment",
  "name": "Google Drive Settings",
